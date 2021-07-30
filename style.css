@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 30px;
+}
+#header .btn{
+    color: #fff;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+#header img{
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#header .header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header p{
+    color: #fff;
+    font-size: 12px;
+    padding-right: 100px;
+    padding-left: 10px;
+    line-height: 22px;
+    border: 1px solid #fff;
+}
+#header a{
+    color: #fff;
+    font-size: 13px;
+
+}
+#header .nav-link{
+    margin-left: 15px;
+}
+#header .header-right{
+    width: 120px;
+    height: 50px;
+    /* background-color: blue; */
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header-right .btn-dropdown img{
+    width: 25px;
+    height: 25px;
+}
+#header .header-right .btn-dropdown, .btn-bell, .btn-plus{
+    color: #fff;
+    cursor: pointer;
+}
+#content{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #555; */
+    display: grid;
+    grid-template-columns: repeat(2, 30% 70%);
+    padding-top: 50px;
+}
+#content .top-content{
+    height: 100%;
+    padding: 15px 25px;
+}
+#content .main-top{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+#content .main-top a{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+#content .main-top .new{
+    background-color: green;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 12px;  
+}
+#content .main-top i{
+    margin-right: 5px;
+}
+#content .search{
+    width: 100%;
+    /* background-color: aqua; */
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+#content .res-top{
+    margin: 20px 0;
+}
+#content .res-top a{
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    font-size: 13px;
+    color: blue;
+}
+#content .res-top i{
+    color: darkgoldenrod;
+    margin-right: 8px;
+}
+#content .res-top .fa-book{
+    color: blue;
+}
+#content .res-top p{
+    font-size: 12px;
+    color: #555;
+}
+#content .bottom-top{
+    border-top: 1px solid #ccc;
+    padding: 25px 0;
+}
+#content .bottom-top p{
+    font-size: 13px;
+    margin: 5px 0;
+}
+#content .about-main{
+    width: 100%;
+    height: 100%;
+    background-color: #f6f8fa;
+    padding: 20px 30px;
+}
+#content .nav-content{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 25px 15px;
+}
+#content .nav-content h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#content .nav-content p{
+    font-size: 14px;
+    color: #444d56;
+}
+#content .nav-btn{
+    margin: 10px 0;
+}
+#content .nav-btn button{
+    padding: 3px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#content .nav-btn .btn-primary{
+    background-color: green;
+    color: #fff;
+    margin-right: 7px;
+}
+#content .main-content{
+    padding: 15px 0;
+    margin-top: 10px;
+    border-bottom: 1px solid #555;
+}
+#content .main-content h4{
+    font-weight: 500;
+}
+#content .about-img{
+    margin: 18px 0;
+}
+#content .about-img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#content .about-img{
+    display: flex;
+    align-items: center;
+}
+#content .about-img p{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #444d56;
+}
+#content .about-img span{
+    font-weight: bolder;
+    font-weight: 600;
+    color: #000;
+}
+#content .about-img .about-span{
+    margin-right: 7px;
+}
+#content .btn-img{
+    border: 1px solid #555;
+    margin: 0px 45px;
+    padding: 15px;
+    border-radius: 7px;
+}
+#content .nav-img{
+    display: flex;
+    margin: 8px 0;
+}
+#content .btn-img p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#content .btn-img span{
+    font-size: 10px;
+    background-color: deepskyblue;
+    padding: 0 4px;
+    border-radius: 15px;
+}
+#content .nav-img img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#content .nav-img p{
+    font-size: 12px;
+    margin-left: 8px;
+    color: #444d56;
+}
+#content .bottom-content{
+    margin: 28px 0;
+}
+#content .bottom-content i{
+    font-size: 20px;
+    color: #000;
+    margin-right: 6px;
+}
+#content .bottom-content .fa-lightbulb{
+    margin-right: 18px;
+}
+#content .bottom-content p{
+    font-size: 13px;
+    color: #444d56;
+}
+#content .bottom-content a{
+    font-size: 13px;
+    color: #444d56;
+}
+#content .bottom-content a:hover{
+    color: blue;
+}
+#content .nav-bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0;
+}
+#content .nav-bottom a{
+    color: #444d56;
+}
+#content .content-left{
+    display: none;
+    border: 1px solid #444d56;
+    border-radius: 10px;
+}
+#content .content-left h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#content .content-left p{
+    font-size: 14px;
+    color: #444d56;
+}
+@media (max-width: 800px){
+    #header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #header p{
+        display: none;
+    }
+    #header a{
+        display: none;
+    }
+    #header .btn{
+        display: block;
+        margin-left: 15px;
+    }
+    #header .header-right{
+        width: 10px;
+    }
+    #header .header-right .btn-dropdown, .btn-plus{
+        display: none;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+    }
+    #content .content-left{
+        display: block;
+        margin: 25px 25px;
+        padding: 25px 15px;
+    }
+    #content .main-content{
+        display: none;
+    }
+    #content .nav-content{
+        display: none;
+    }
+}
+@media (max-width: 350px){
+    #content .nav-btn button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
